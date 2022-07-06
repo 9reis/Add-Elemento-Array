@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Elemento ao Array</title>
+</head>
+<body>
+
+    <script>
+        //Inserindo elementos no inicio, no meio e no final do array
+        const numeros = [1,2,3];
+        //Inicio
+        numeros.unshift(0)
+        console.log(numeros)
+
+        //Meio
+        numeros.splice(1,0,'a')
+        console.log(numeros)
+
+        // Final
+        numeros.push(5)
+        console.log(numeros)
+
+    </script>
+    
+</body>
+</html>
